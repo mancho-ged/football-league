@@ -11019,6 +11019,10 @@ p {
             order: 5;
     width: auto;
   }
+  .navbar #lang-switcher-block .dropdown-menu {
+    right: 0;
+    left: auto;
+  }
 }
 
 .swiper-container {
