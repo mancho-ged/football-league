@@ -1,0 +1,12 @@
+.dropdown-toggle{
+    display: flex;
+    align-items: center;
+    &:after{
+        content: "\f107";
+        font-family: FontAwesome;
+        font-size: 14px;
+        border: none;
+        margin-left: 10px;
+        margin-top: -1px;
+    }
+}

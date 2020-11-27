@@ -1,0 +1,36 @@
+/* colors */
+$primary-color: #f03135;
+$secondary-color: #A4A8B1;
+$tertiary-color: #375FC9;
+$light-bg: #F4F4F5;
+
+$text-color-darker: #60636C;
+$text-color-dark: #3c4a62;
+$text-color-middle: #3C4A62;
+$text-color-light-gray: rgba(96, 99, 104, .7);
+
+/* bootstrap reset */
+$primary: $primary-color;
+// $secondary:     $gray-600 !default;
+// $success:       $green !default;
+// $info:          $cyan !default;
+// $warning:       $yellow !default;
+// $danger:        $red !default;
+// $light:         $gray-100 !default;
+// $dark:          $gray-800 !default;
+$grid-breakpoints: ( xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1280px );
+$container-max-widths: ( sm: 540px, md: 720px, lg: 960px, xl: 1180px );
+$grid-gutter-width:           20px;
+$enable-prefers-reduced-motion-media-query: false;
+$font-family-base: 'FiraGO';
+
+$tooltip-color:                     $text-color-dark;
+$tooltip-bg:                        #fff;
+$tooltip-border-radius:             4px;
+$tooltip-opacity:                   1;
+$tooltip-padding-y:                 9px;
+$tooltip-padding-x:                 25px;
+$tooltip-margin:                    -7px;
+
+$tooltip-arrow-width:               34px;
+$tooltip-arrow-height:              14px;

@@ -1,0 +1,111 @@
+.navbar-toggler {
+  border: none;
+  position: relative;
+  cursor: pointer;
+  margin-left: 0;
+  padding: 0;
+  &:focus {
+    outline: none;
+    span {
+      opacity: 0.8;
+    }
+  }
+
+  span {
+    display: block;
+    background-color: $primary-color;
+    height: 3px;
+    width: 21px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    position: relative;
+    left: 0;
+    opacity: 1;
+    border-radius: 2px;
+    -webkit-transition: transform 0.25s ease-in-out;
+    -moz-transition: transform 0.25s ease-in-out;
+    -o-transition: transform 0.25s ease-in-out;
+    transition: transform 0.25s ease-in-out;
+    border-radius: 4px;
+  }
+}
+
+.navbar-brand {
+  margin-right: 0;
+}
+
+.btn {
+  border-radius: 44px;
+  font-size: 12px;
+}
+.btn-live {
+  text-transform: uppercase;
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #ff4b4b;
+  transition: all .5s;
+  &:before {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: #ff4b4b;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  &:hover {
+    text-decoration: none;
+    transition: all .5s;
+    &:before {
+      background: #c60e12;
+      transition: all .5s;
+    }
+  }
+}
+
+.btn-view-more {
+  height: 42px;
+  display: flex;
+  align-items: center;
+  padding-left: 27px;
+  padding-right: 27px;
+}
+
+#tickets-btn {
+  min-width: 89px;
+}
+
+.btn-secondary{
+  background: #fff;
+  color: $tertiary-color;
+  &:hover, &:focus, &.focus{
+    background: rgba(255,255,255,0.8);
+    color: $tertiary-color;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .btn {
+    font-size: 14px;
+  }
+  .btn-live {
+    font-size: 14px;
+  }
+  #tickets-btn {
+    min-width: 120px;
+    min-height: 41px;
+    padding: 13px 11px 12px 11px;
+    line-height: 14px;
+  }
+  .btn.btn-view-more{
+    font-size: 16px;
+    min-width: 164px;
+    min-height: 50px;
+  }
+}

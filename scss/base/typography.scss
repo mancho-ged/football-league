@@ -1,0 +1,33 @@
+p {
+    color: rgba(96, 99, 104, .7);
+    font-size: 12px;
+}
+.icon-sm{
+    display:inline-block;
+    height: 18px;
+    height:18px;
+}
+
+.nav-link{
+    color: $text-color-dark;
+    &:hover{
+        color: $text-color-dark;
+    }
+}
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active{
+    color: $text-color-darker;
+    transition: all .5s;
+    &:hover{
+        color: $text-color-dark;
+        transition: all .5s;
+        opacity:.8;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    p{
+        font-size: 14px;
+    }
+    
+}

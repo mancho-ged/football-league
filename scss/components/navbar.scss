@@ -1,0 +1,125 @@
+.navbar {
+  padding: 2px 0px 0px 0px;
+  .navbar-toggler {
+    margin-right: 19px;
+  }
+  #live-button-block {
+    width: 40px;
+    text-align: right;
+  }
+  .navbar-brand {
+    padding-top: 7px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .navbar {
+    justify-content: flex-start;
+
+    .navbar-toggler {
+      margin-right: 40px;
+    }
+
+    #lang-switcher-block {
+      margin-right: auto;
+      width: calc(40% - 61px);
+    }
+    #live-button-block {
+      width: calc(40% - 120px);
+      margin-left: auto;
+      padding-right: 40px;
+    }
+    #lang-dropdown {
+      padding-left: 0;
+      color: $text-color-darker;
+      background: rgba(230, 231, 235, 0.5);
+      border: 1px solid #e6e7eb;
+      border-radius: 23px;
+      padding: 10px 9px 8px 12px;
+      line-height: 14px;
+      width: 65px;
+    }
+    .navbar-brand {
+      padding: 12px 0 13px 0;
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .navbar {
+    .navbar-brand {
+      order: 1;
+      margin-right: 47px;
+    }
+    #navbarDefault {
+      order: 2;
+      .dropdown-toggle:after {
+        display: none;
+      }
+      .dropdown-menu {
+        background: $light-bg;
+        border-radius: 0 0 6px 6px;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.09);
+        min-width: 181px;
+        border: none;
+        margin-top:none;
+        padding-top: 12px;
+        padding-bottom: 0;
+        font-size:14px;
+        &:before {
+          content: "";
+          height: 19px;
+          width: 21px;
+          display: block;
+          background: url("../images/submenu-arrow.png") no-repeat top left;
+          position: absolute;
+          top: -19px;
+          left: 50%;
+          transform: translate(-50%, 0);
+        }
+
+        .dropdown-item {
+          display: block;
+          width: 100%;
+          padding: 10px 22px;
+          position: relative;
+          color: $text-color-darker;
+          &:active, &.active, &:hover{
+            color: $primary-color;
+            background: transparent;
+            &:before{
+              content: "";
+              height: 30px;
+              width:0px;
+              border-left: 4px solid $primary-color;
+              position:absolute;
+              left: 0;
+              top:50%;
+              transform: translate(0, -50%);
+            }
+          }
+        }
+      }
+
+      .navbar-nav .nav-link {
+        padding-right: 13px;
+        padding-left: 13px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+      }
+    }
+    #live-button-block {
+      order: 3;
+      width: auto;
+      padding-right: 26px;
+    }
+    #tickets-btn {
+      order: 4;
+      margin-right: 15px;
+    }
+    #lang-switcher-block {
+      order: 5;
+      width: auto;
+    }
+
+  }
+}

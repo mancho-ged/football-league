@@ -1,0 +1,21 @@
+/* utils */
+@import 'utils/variables';
+
+@import 'bootstrap/bootstrap.scss';
+
+@import 'base/base.scss';
+@import 'base/typography.scss';
+
+/* components */
+@import 'components/button';
+@import 'components/dropdown';
+@import 'components/navbar';
+@import 'components/slider';
+@import 'components/header';
+@import 'components/news-item';
+@import 'components/top-bar';
+@import 'components/tooltip';
+
+/* pages */
+@import 'pages/home';
+
