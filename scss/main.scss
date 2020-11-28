@@ -1,10 +1,11 @@
+@import 'base/typography.scss';
 /* utils */
 @import 'utils/variables';
 
 @import 'bootstrap/bootstrap.scss';
 
 @import 'base/base.scss';
-@import 'base/typography.scss';
+
 
 /* components */
 @import 'components/button';

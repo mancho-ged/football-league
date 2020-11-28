@@ -10693,6 +10693,14 @@ body {
   }
 }
 
+@font-face {
+  font-family: 'FiraGO';
+  src: url("../fonts/FiraGO-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/FiraGO-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/FiraGO-Regular.woff2") format("woff2"), url("../fonts/FiraGO-Regular.woff") format("woff"), url("../fonts/FiraGO-Regular.ttf") format("truetype"), url("../fonts/FiraGO-Regular.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+}
+
 p {
   color: rgba(96, 99, 104, 0.7);
   font-size: 12px;
