@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2020 by original authors @ fontello.com</metadata>
+<defs>
+<font id="football-font" horiz-adv-x="1000" >
+<font-face font-family="football-font" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="footsal" unicode="&#xe800;" d="M500-150a499 499 0 0 0-317 114c-5 4-11 9-16 14l-8 6a492 492 0 0 0-148 261c0 0 0 1 0 1l0 2a501 501 0 0 0 0 204 494 494 0 0 0 153 268l3 3c5 4 10 9 16 14a499 499 0 0 0 161 88h0a504 504 0 0 0 312 1l0 0a495 495 0 0 0 165-93c4-3 9-7 13-11l5-5a501 501 0 0 0 150-262l1-2a503 503 0 0 0 0-206c0 0 0-1-1-1a501 501 0 0 0-156-269c-3-3-7-7-12-11a494 494 0 0 0-165-91l0 0a497 497 0 0 0-151-25z m-2 73a413 413 0 0 1 122 17l38 65-79 136h-158l-78-136 37-65a424 424 0 0 1 118-17z m223 118h74a430 430 0 0 1 120 208l-37 65h-157l-79-137z m-516 0h75l78 136-78 137h-158l-38-65a421 421 0 0 1 122-208z m216 173h158l78 136-78 136h-158l-78-136z m299 172h158l38 65a429 429 0 0 1-121 208h-74l-79-136z m-598 0h158l78 137-78 136h-75a422 422 0 0 1-120-208z m299 173h158l79 137-38 64a431 431 0 0 1-240 0l-38-64z" horiz-adv-x="1000" />
+
+<glyph glyph-name="football" unicode="&#xe804;" d="M500 850a500 500 0 1 1 500-500 501 501 0 0 1-500 500z m26-146l101 74a449 449 0 0 0 238-172l-39-121-138-44-162 117z m-154 74l100-74v-146l-160-117-140 46-38 118a448 448 0 0 0 238 173z m-230-694a444 444 0 0 0-88 266q0 6 0 12l102 74 143-47 60-182-90-124z m502-157a446 446 0 0 0-292 2l-39 122 90 124h190l91-125z m84 154l-88 121 60 185 143 47 103-75c0-3 0-6 0-9a444 444 0 0 0-91-269z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
