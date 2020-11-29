@@ -198,9 +198,8 @@
             background-color: #ea1116;
             border-color: #de1014;
           }
-          svg path{
-            fill: #fff!important;
-
+          svg path {
+            fill: #fff !important;
           }
         }
         .slide_progress-bar:after {
@@ -228,16 +227,18 @@
         font-size: 14px;
         a {
           color: #fff;
-          &:hover{
+          &:hover {
             text-decoration: none;
           }
         }
       }
       .btn {
-        padding: 8px 15px 9px 15px;
+        padding: 3px 15px 3px;
         min-width: 114px;
+        max-height: 31px;
+        line-height: 19px;
       }
-      svg{
+      svg, i {
         margin-right: 8px;
       }
     }
@@ -311,7 +312,6 @@
           min-width: 96px;
           font-size: 12px;
         }
-        
       }
     }
   }
